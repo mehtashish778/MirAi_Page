@@ -8,12 +8,19 @@
     body {
       font-family: Arial, sans-serif;
       text-align: center;
-      padding: 40px;
+      padding: 0;
+      margin: 0;
       background-color: #f9f9f9;
+      overflow: hidden;
     }
     iframe {
       border: none;
-      margin-top: 20px;
+      margin-top: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
     }
   </style>
 </head>
@@ -22,8 +29,6 @@
   <p>Below is the embedded Hugging Face Space from alphamike-mirai-mk-1:</p>
   <iframe
     src="https://alphamike-mirai-mk-1.hf.space"
-    width="850"
-    height="450"
     loading="lazy"
   ></iframe>
 </body>
